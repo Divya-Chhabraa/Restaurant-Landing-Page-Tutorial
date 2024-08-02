@@ -1,0 +1,77 @@
+.carousel-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .reviewcontainer{
+    margin: 200px;
+  }
+
+  .reviewhead{
+    font-size:  clamp(2rem, 5vw, 4rem);
+    color: #f6f6f6;
+    margin-top: 150px;
+    margin-bottom: 90px;
+    text-align: center;
+  }
+  .review-card {
+    margin-bottom: 20px;
+  }
+  
+  .review-text {
+    font-size: 20px;
+    color: #000a4a;
+    margin-bottom: 10px;
+    line-height: 1.4;
+  }
+  
+  .review-stars {
+    color: #ffd700;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .half-star {
+    color: #ffd700;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+    width: 10px;
+    display: inline-block;
+  }
+  
+  .review-name {
+    font-size: 20px;
+    color: #000a4a;
+    font-weight: bold;
+  }
+  
+  .carousel-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .carousel-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel-button:hover {
+    background-color: #0056b3;
+  }
+  

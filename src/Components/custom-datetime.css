@@ -1,0 +1,62 @@
+/* Custom styles for react-datetime */
+.rd-container {
+    font-family: Arial, sans-serif; /* Ensure consistent font style */
+  }
+  
+  .rdtPicker {
+    background-color: #000a4a; /* Background color of the calendar */
+    color: white; /* Text color inside the calendar */
+    border: 1px solid #f6f6f6; /* Border color */
+    border-radius: 8px; /* Rounded corners for the calendar */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Box shadow for subtle depth */
+  }
+  
+  .rdtPicker th {
+    background-color: #000a4a; /* Header background color */
+    color: #ffffff; /* Header text color */
+    padding: 10px;
+  }
+  
+  .rdtPicker td {
+    padding: 10px;
+  }
+  
+  .rdtPicker td.rdtDay:hover,
+  .rdtPicker td.rdtMonth:hover,
+  .rdtPicker td.rdtYear:hover {
+    background-color: #ffffff; /* Hover background color for days/months/years */
+    color: #000a4a; /* Hover text color for days/months/years */
+    cursor: pointer;
+  }
+  
+  .rdtActive {
+    background-color: #ffffff !important; /* Active date background color */
+    color: #000a4a !important; /* Active date text color */
+  }
+  
+  .rdtPrev span, .rdtNext span {
+    color: #ffffff; /* Navigation arrows color */
+  }
+  
+  .rdtTimeToggle {
+    color: #ffffff; /* Toggle button text color */
+  }
+  
+  .rdtDay, .rdtMonth, .rdtYear {
+    color: #ffffff; /* Default text color for days, months, and years */
+  }
+  
+  .rdtSwitch {
+    color: #ffffff; /* Month/Year switch text color */
+    cursor: pointer;
+  }
+  
+  .rdtTimePart select {
+    background-color: #000a4a; /* Background color for time part select */
+    color: #ffffff; /* Text color for time part select */
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 0 5px;
+  }
+  

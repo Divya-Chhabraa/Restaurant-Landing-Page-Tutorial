@@ -21,7 +21,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   const handleClickView = () => {
-    navigate('/login');
+    navigate('/');
   };
   const [openMenu, setOpenMenu] = useState(false);
   const menuOptions = [
@@ -45,10 +45,10 @@ const Navbar = () => {
       </div>
       <div className="navbar-links-container">
       <Link to="/">Home</Link>
-      <a href="/#work">About</a>
+      <a href="#work">About</a>
       <Link to="/contact">Contact</Link>
-      <a href="/#reviews">Reviews</a>
-      <button onClick={handleClickView} className="primary-button">Login</button>
+      <a href="#reviews">Reviews</a>
+      <button onClick={handleClickView} id="logout" className="primary-button">Logout</button>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />

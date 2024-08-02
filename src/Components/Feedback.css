@@ -1,0 +1,117 @@
+/* Feedback.css */
+
+/* General styles */
+
+
+/* Container for the feedback form */
+.feedback-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+/* Heading styles */
+.feedback-form h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #000a4a;
+    text-align: center;
+}
+
+/* Input group styles */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #000a4a;
+    margin-bottom: 8px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.rating {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.review {
+    margin-bottom: 20px;
+}
+
+.review textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+/* Button styles */
+.button-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically (optional) */
+    height: 8vh;           /* Full viewport height (optional, for centering vertically) */
+}
+
+.feedh1{
+    color:#f6f6f6;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+
+}
+#feedbackbutton {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#feedbackbutton:hover {
+    background-color: #0056b3;
+}
+
+/* Error and success messages */
+.error {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.success {
+    color: #4caf50;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .feedback-form {
+        padding: 15px;
+    }
+
+    .input-group input,
+    .review textarea,
+    button {
+        font-size: 14px;
+    }
+}
